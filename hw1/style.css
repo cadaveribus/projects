@@ -1,0 +1,11 @@
+body {
+	padding: 1%;
+}
+
+[id="main"] {
+	background-color: blue; 
+	width: 95%; 
+	height: 95%; 
+	margin: 0% auto; 
+	padding: 1%;
+}

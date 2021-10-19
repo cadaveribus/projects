@@ -1,0 +1,120 @@
+body{
+	background-image: url("travel.jpeg");
+	background-attachment:fixed;
+}
+
+table {
+	spacing: 10px ;
+	padding: 5px;
+}
+
+td {
+	height: 100%; 
+    width: 100%;
+    padding: 1%;
+}
+
+[id="title"] {
+	font-size: 25px;
+    top: 10%; 
+    left: 40%; 
+    transform: translate(10%, 0%);
+    font-family: fantasy;
+}
+
+[id="txt"]{
+	color: darkgreen;
+	text-align: center;
+	position: center;
+	font-family: fantasy; 
+    top: 30%; 
+    left: 30%; 
+    width: 1380px;
+}
+
+[id="name"] {
+	color: white;
+    padding: 10px; 
+    justify-content: center; 
+    display: fixed; 
+    text-align: center; 
+    position: relative;
+}
+
+.countries {
+	position: relative;
+	z-index: 1;
+	float: left; 
+	padding: 0.5%;  
+	width: 430px;
+}
+
+.countries_txt {
+	position: absolute;
+	z-index: 2;
+	left: 120px;
+	top: 5em;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+}
+
+.pict {
+	width: 425px; 
+	height: 300px;
+}
+
+.paragraph {
+	font-weight : bold;
+	font-family: fantasy;
+	font-size: 17px;
+	color: white;
+	text-align: center;
+}
+
+/*coutries*/
+
+[id="mainPict"] {
+	position: relative;
+	z-index: 1;
+    width: 1420px; 
+    height: 730px;
+}
+
+.pict {
+    width: 469px; 
+    height: 300px;
+}
+
+.banner {
+    height: 300px; 
+    width: 100%;
+}
+
+h1 {
+	text-align: center;
+    font-family: "Bradley Hand", cursive;
+    font-size: 3rem;
+}
+
+p {
+	text-align: center;
+    font-family: "Bradley Hand", cursive;
+    font-size: 1.7rem;
+}
+
+h3 {
+	text-align: center;
+    font-family: "Bradley Hand", cursive;
+    color: white;
+    font-size: 35px;
+}
+
+[id="titl"] > h1 {
+	position: relative;
+	z-index: 2;
+	left: -110px;
+	top: -4em;
+    color: black;
+    font-size: 4rem;
+}
